@@ -4,7 +4,7 @@
  *
  * All style changes should be in child themes style.css file.
  *
- * @package LiveWireChild
+ * @package ErricLiveWire
  * @subpackage Functions
  */
 
@@ -48,7 +48,7 @@ function erric_filter_sticky_post( $query ) {
 		} else {
 			$sticky = NULL;
 		}
-		
+
 		// $query->set( 'ignore_sticky_posts', true );
 		$query->set( 'post__not_in', $sticky );
 
