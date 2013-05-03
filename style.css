@@ -1,0 +1,23 @@
+/**
+ * Theme Name: Erric Live Wire
+ * Theme URI: http://foxnet.fi
+ * Description: A child theme of Live Wire for Eric Gunawan in Blue
+ * Version: 0.1
+ * Author: erricgunawan
+ * Author URI: http://erricgunawan.com
+ * Tags: post-formats, sticky-post, theme-options, threaded-comments, translation-ready, one-column, two-columns, flexible-width, left-sidebar, right-sidebar, custom-background, featured-images, blue, white
+ * License: GNU General Public License v2.0
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ * Template: live-wire
+ */
+
+/* Importing the parent theme stylesheet. */
+@import url( '../live-wire/style.css' );
+
+/**
+* Note: If you want to use media queries in child theme and support them in browsers like IE7 and IE8,
+* you should copy and paste parent theme style.css in here and remove line @import url( '../live-wire/style.css' );
+* Remember also change all url instances in fonts and backgound like this.
+* src: url('../live-wire/fonts/league_gothic-webfont.eot');
+* background: url(../live-wire/images/menu-plus.png) no-repeat 0 0;
+*************************/
