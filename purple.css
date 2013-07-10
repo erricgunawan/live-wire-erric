@@ -4,7 +4,7 @@
  * change #13a1ec to #8224e3
  * change #1189b7 to #7100e2
  * change #0b76b2 to #8224e3 *secondary menu*
- * change #38b2d4 to  *secondary menu li a*
+ * change #38b2d4 to #6436d1 *secondary menu li a*
  * change #66cbf2 to #ab73e2 *footer*
  */
 
@@ -57,11 +57,19 @@ hr {
 #menu-primary li.current-menu-item a {
 	color: #7100e2;
 }
+#menu-primary li a:hover,
 #menu-primary li.sfHover a {
 	color: #7100e2;
 }
+#menu-primary li li a,
+#menu-primary li.sfHover li a,
 #menu-primary li li.sfHover li a {
 	color: #7100e2;
+}
+
+/* Sub-nav indicator. */
+#menu-primary li .sf-sub-indicator {
+	background: url('images/menu-plus.png') no-repeat 0 0;
 }
 
 /* Header */
