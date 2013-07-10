@@ -56,3 +56,13 @@ function erric_filter_sticky_post( $query ) {
 
 }
 add_action( 'pre_get_posts', 'erric_filter_sticky_post' );
+
+/**
+ * Show favicon
+ */
+function erric_favicon() {
+	?>
+	<link rel="shortcut icon" type="image/x-icon" href="http://erricgunawan.com/blog/wp-content/uploads/2012/01/favicon.png" />
+<?php
+}
+add_action( 'wp_head', 'erric_favicon' );
