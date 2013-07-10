@@ -1,0 +1,212 @@
+/**
+ * Purple Style
+ *
+ * change #13a1ec to #8224e3
+ * change #1189b7 to #7100e2
+ * change #0b76b2 to #8224e3 *secondary menu*
+ * change #38b2d4 to  *secondary menu li a*
+ * change #66cbf2 to #ab73e2 *footer*
+ */
+
+body {
+	border-top: 0.3125em solid #7100e2;
+}
+
+/* Links */
+a,
+a:visited {
+	color: #7100e2;
+}
+
+/* Blockquotes */
+blockquote {
+	border-left: 0.375em solid #8224e3;
+}
+
+/* Tables */
+th {
+	background: #7100e2;
+}
+tr:hover th {
+	background: #8224e3;
+}
+thead th,
+tfoot th,
+thead tr:hover th,
+tfoot tr:hover th {
+	background: #7100e2;
+}
+
+/* WP calendar */
+#wp-calendar a { /* WP needs to fix this ID issue. */
+	background: #8224e3;
+}
+#wp-calendar a:hover {
+	background: #7100e2;
+}
+
+/* Horizontal rule */
+hr {
+	background: #8224e3;
+}
+
+/* Primary menu */
+#menu-primary li.current-menu-item {
+	color: #7100e2;
+}
+#menu-primary li.current-menu-item a {
+	color: #7100e2;
+}
+#menu-primary li.sfHover a {
+	color: #7100e2;
+}
+#menu-primary li li.sfHover li a {
+	color: #7100e2;
+}
+
+/* Header */
+#header .wrap {
+	background: #7100e2;
+}
+
+/* Menu secondary */
+#menu-secondary div.menu {
+	background: #8224e3;
+}
+#menu-secondary li.current-menu-item a {
+	color: #7100e2;
+}
+#menu-secondary li a:hover,
+#menu-secondary li.sfHover a {
+	color: #7100e2;
+}
+#menu-secondary li li a,
+#menu-secondary li.sfHover li a,
+#menu-secondary li li.sfHover li a {
+	color: #6436d1;
+	border-left: 0.454545455em solid #8224e3; /* 5px / 11px = 0.454545455 */
+}
+#menu-secondary li li.current-menu-item a,
+#menu-secondary li li.sfHover li.current-menu-item a {
+	border-left: 0.454545455em solid #7100e2; /* 5px / 11px = 0.454545455 */
+	color: #8224e3;
+}
+#menu-secondary li li a:hover,
+#menu-secondary li li.sfHover a,
+#menu-secondary li li.sfHover li a:hover {
+	border-left: 0.454545455em solid #7100e2;
+}
+
+/* Sub-nav indicator */
+#menu-secondary li .sf-sub-indicator {
+	background: url('images/menu-plus.png') no-repeat 0 0;
+	background-position: 0 -12px;
+}
+
+/* More link */
+a.more-link  {
+	background: #7100e2;
+}
+a.more-link:hover {
+	background: #8224e3;
+}
+
+
+/* =Pagination and prev/next links
+-------------------------------------------------------------- */
+.pagination .page-numbers,
+.page-links a {
+	background: #7100e2;
+}
+.pagination .page-numbers:hover,
+.page-links a:hover {
+	background: #8224e3;
+}
+.pagination .dots:hover {
+	background: #7100e2;
+}
+.pagination .current {
+	background: #8224e3;
+}
+.loop-nav .previous,
+.loop-nav .next {
+	background: #7100e2;
+}
+.loop-nav a:hover span {
+	background: #8224e3;
+}
+
+/* Search widget */
+input[type="submit"] {
+	background: #7100e2;
+}
+input[type="submit"]:hover {
+	background: #8224e3;
+}
+
+/* Submit button */
+#respond #submit {
+	background: #7100e2;
+}
+#respond #submit:hover {
+	background: #8224e3;
+}
+
+
+/* =Footer area
+-------------------------------------------------------------- */
+
+/* Sidebar subsidiary */
+#sidebar-subsidiary {
+	background: #7100e2;
+	border-top: 1px solid #7100e2;
+}
+/* Footer */
+#footer {
+	background: #7100e2;
+}
+#footer a {
+	color: #ab73e2;
+}
+
+
+/* =Gravity Forms CSS
+-------------------------------------------------------------- */
+body .gform_wrapper .gform_body .gform_page_footer .gform_next_button,
+body .gform_wrapper .gform_body .gform_page_footer .gform_previous_button {
+	background: #7100e2;
+}
+body .gform_wrapper .gform_body .gform_page_footer .gform_next_button:hover,
+body .gform_wrapper .gform_body .gform_page_footer .gform_previous_button:hover {
+	background: #8224e3;
+}
+
+
+/* =Hybrid Tabs Widget
+-------------------------------------------------------------- */
+.widget-tabs ul.tabs li.t a:hover {
+	background: #8224e3;
+}
+.widget-tabs ul.tabs li.t a.tab-current{
+	background: #7100e2;
+}
+
+
+/* =Layout for tablets version 
+-------------------------------------------------------------- */
+@media only screen and (min-width: 768px) {
+
+	/* Header */
+	#header {
+		background: #8224e3;
+		border-bottom: 5px solid #7100e2;
+	}
+
+	/* =Breadcrumbs
+	-------------------------------------------------------------- */
+
+	.breadcrumbs a {
+		color: #8224e3;
+	}
+
+}
