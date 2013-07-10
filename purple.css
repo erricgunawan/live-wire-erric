@@ -114,6 +114,7 @@ hr {
 /* More link */
 a.more-link  {
 	background: #7100e2;
+	color: #fff;
 }
 a.more-link:hover {
 	background: #8224e3;
