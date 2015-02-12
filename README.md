@@ -6,7 +6,7 @@ A WordPress Child Theme of [Live Wire](http://themehybrid.com/themes/live-wire) 
 Changelog
 ---------
 
-= 1.1 - xx-xx-2015 =
+= 1.1 - 12-02-2015 =
 * Change Fonts
 * Remove Title on Post Format Link
 
