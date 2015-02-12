@@ -66,3 +66,13 @@ function erric_favicon() {
 <?php
 }
 add_action( 'wp_head', 'erric_favicon' );
+
+
+/**
+ * Load Google Fonts
+ */
+function erric_enqueue() {
+	wp_enqueue_style( 'erric-fonts', 'http://fonts.googleapis.com/css?family=Istok+Web', array(), '1.0', 'all' );
+	wp_enqueue_style( 'erric-fonts-1', 'http://fonts.googleapis.com/css?family=Ubuntu', array(), '1.0', 'all' );
+}
+add_action( 'wp_enqueue_scripts', 'erric_enqueue' );
