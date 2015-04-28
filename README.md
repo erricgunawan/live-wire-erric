@@ -6,6 +6,10 @@ A WordPress Child Theme of [Live Wire](http://themehybrid.com/themes/live-wire) 
 Changelog
 ---------
 
+= x.x - xx-xx-2015 =
+* Justify text alignment in content
+
+
 = 1.1 - 12-02-2015 =
 * Change Fonts
 * Remove Title on Post Format Link
