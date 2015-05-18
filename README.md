@@ -8,6 +8,7 @@ Changelog
 
 = x.x - xx-xx-2015 =
 * Justify text alignment in content
+* Show Post Comment button
 
 
 = 1.1 - 12-02-2015 =

@@ -76,3 +76,18 @@ function erric_enqueue() {
 	wp_enqueue_style( 'erric-fonts', 'http://fonts.googleapis.com/css?family=Ubuntu', array(), '1.0', 'all' );
 }
 add_action( 'wp_enqueue_scripts', 'erric_enqueue' );
+
+
+/**
+ * additional params for hybrid_comment_form_args()
+ * https://core.trac.wordpress.org/browser/tags/4.2.2/src/wp-includes/comment-template.php#L2222
+ */
+add_filter( 'comment_form_defaults', 'erric_comment_form_args', 20 );
+function erric_comment_form_args( $defaults ) {
+	$defaults['class_submit']  = 'submit';
+	$defaults['name_submit']   = 'submit';
+	$defaults['submit_button'] = '<input name="%1$s" type="submit" id="%2$s" class="%3$s" value="%4$s" />';
+	$defaults['submit_field']  = '<p class="form-submit">%1$s %2$s</p>';
+
+	return $defaults;
+}
